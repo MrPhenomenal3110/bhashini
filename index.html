@@ -5,11 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhashini | Language translator</title>
     <link rel="stylesheet" href="./assets/styles.css">
-    <script src="./javascript/index.js"></script>
 </head>
-
 <body>
-    
-</body>
+    <header class="main-title">
+        <h1>Bhashini - Language Translator</h1>
+    </header>
+    <div class="main">
 
-</html>
+        <div class="text-area-container">
+            <div class="dropdown">
+                <label for="original-language">Choose a language:</label>
+                <select class="language-selector" name="source-language" id="translate-from">
+                    <option value="en" >English</option>
+                    <option value="hi" >Hindi</option>
+                    <option value="ma" >Marathi</option>
+                    <option value="gu" >Gujarati</option>
+                    <option value="or" >Odia</option>
+                    <option value="bn" >Bengali</option>
+                    <option value="as" >Assamese</option>
+                </select>
+            </div>
+            <textarea name="main" id="main-text-area" cols="30" rows="10" placeholder="Enter the text to be translated"></textarea>
+            <button class="btn" method="POST" id="translate">Translate</button>
+        </div>
+        <div class="preview-area-container">
+            <div class="dropdown">
+                <label for="original-language">Choose a language:</label>
+                <select class="language-selector" name="target-language" id="translate-to">
+                    <option value="en" >English</option>
+                    <option value="hi" >Hindi</option>
+                    <option value="mr" >Marathi</option>
+                    <option value="gu" >Gujarati</option>
+                    <option value="or" >Odia</option>
+                    <option value="bn" >Bengali</option>
+                    <option value="as" >Assamese</option>
+                </select>
+            </div>
+            <div class="preview-area" id="main-preview-area">
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="../javascript/index.js"></script> 
