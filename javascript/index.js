@@ -13,8 +13,6 @@ function getTranslation(){
 
     let previewArea = document.getElementById("main-preview-area");
 
-    
-    // var previewArea = document.querySelector(".preview-area");
     const textArea = document.getElementById("main-text-area");
 
     const apiKey = '58e362d3f7-f602-4ae6-bb29-5c72883f9a54';
@@ -51,13 +49,9 @@ function getTranslation(){
             });
 
             const data = await response.json();
-            // console.log(JSON.stringify(data));
-            // console.log(data.pipelineResponseConfig[0].config[0].serviceId);
 
             const callbackURL = data.pipelineInferenceAPIEndPoint.callbackUrl
             const inferenceApiKey = data.pipelineInferenceAPIEndPoint.inferenceApiKey.value;
-
-            // console.log(callbackURL);
 
             async function translate(){
                 try {
@@ -110,8 +104,6 @@ function getTranslation(){
             console.error('Error:', error);
         }
     }
-
-    // Call the async function
     fetchData();
 }
 
