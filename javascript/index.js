@@ -1,6 +1,10 @@
 const button = document.getElementById("translate");
 
-button.addEventListener("click",()=>{
+function main(){
+    getTranslation();
+}
+
+function getTranslation(){
     const sourceLanguages = document.getElementById("translate-from");
     var sourceLanguage = sourceLanguages.value;
 
@@ -109,5 +113,9 @@ button.addEventListener("click",()=>{
 
     // Call the async function
     fetchData();
+}
+
+button.addEventListener("click",()=>{
+    main();
 });
 
