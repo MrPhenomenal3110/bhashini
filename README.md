@@ -27,7 +27,7 @@
   In order to contribute to this project, you don't need to set up any external modules. You can just fork the repository and open the project in any editor of your choice (I have used VS-Code 😁).
   ### NOTE : You will have to use your own API Keys for testing purposes.
   - In order to get your API keys, log into the UCLA or create an account if you don't have one.
-    - [ULCA - Register / Login](https://bhashini.gov.in/ulca/user/register)
+    - [UCLA - Register / Login](https://bhashini.gov.in/ulca/user/register)
   
   - Now, you can click the icon on the top-right, select `My Profile`.
   - You will be redirected to the profile page, where, you will see an option to add a project.
@@ -35,7 +35,7 @@
   - After the creation of the project, you can see your `API Key` and your `UserID` on the screen.
   
   ### The above mentioned instructions are explained better on this page :
-  - [ULCA - How to get your API Key and UserID](https://bhashini.gitbook.io/bhashini-apis/pre-requisites-and-onboarding)
+  - [UCLA - How to get your API Key and UserID](https://bhashini.gitbook.io/bhashini-apis/pre-requisites-and-onboarding)
 
   ## Issues and Enhancements ⚒️🛠️
   - The issues and enhancements can be found in the `issues` section of this repository. You can also suggest `enhancements` and you can also raise `bugs` or `issues` you find.
